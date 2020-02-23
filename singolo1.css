@@ -1,0 +1,257 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+
+.header__bg {
+	background: #2d303a;
+	height: 89px;
+	border-bottom: inset 6px #323746;
+}
+.header__logo {
+	display: inline-block;
+}
+
+.header__logo>h1 {
+	display: inline-block;
+	color: #fff;
+	font-size: 25px;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 29px 40px;
+}
+
+.header__logo a, .header__logo span {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header__logo:hover a {
+	color: #f06c64;
+}
+
+.header__logo:hover span {
+	color: #fff;
+}
+
+.header__logo span {
+	color: #f06c64;
+}
+
+/* Menu List */
+
+.header__menu {
+	float: right;
+}
+
+.header__menu-list {
+	list-style: none;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin: 41px 40px;
+}
+
+.header__menu-item {
+	display: inline;
+	margin: 0 5px;
+}
+
+.header__menu-item:last-child {
+	margin-right: 0;
+}
+
+.header__menu-item>a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header__menu-item>a:hover {
+	color: #f06c64;
+}
+
+.header__menu-item-active>a {
+	color: #f06c64;
+}
+
+.header__menu-dot {
+	color: #494e62;
+}
+
+/* Slider */
+
+.slider {
+	height: 594px;
+	background: #f06c64;
+	border-bottom: solid 6px #ea676b;
+}
+
+.slider__arrow-left {
+	position: relative;
+	top: 281px;
+	left: 42px;
+	display: inline-block;
+	height: 27px;
+	transform: translate(12px, 50%);
+}
+
+.slider__arrow-right {
+	position: relative;
+	top: 281px;
+	left: calc(100% - 84px);
+	transform: rotate(180deg);
+	display: inline-block;
+	height: 27px;
+}
+
+/*
+.slider__images {
+	margin: 0 auto
+}
+*/
+
+.phone-img_vertical {
+	border-radius: 27px;
+	background-color: rgb(242, 242, 242);
+	position: absolute;
+	left: 112px;
+	top: 148px;
+	width: 215px;
+	height: 458px;
+ 	box-shadow: 25px 25px #ce5d56, 20px 20px #ce5d56, 15px 15px #ce5d56, 10px 10px #ce5d56, 5px 5px #ce5d56;
+}
+
+.phone-img_vertical_cam {
+	border-radius: 50%;
+	background-color: rgb(216, 216, 216);
+	position: absolute;
+	left: 214px;
+	top: 164px;
+	width: 10px;
+	height: 10px;
+}
+
+.phone-img_vertical_cam-dot {
+	border-radius: 50%;
+	background-color: rgb(235, 80, 85);
+	position: absolute;
+	left: 217px;
+	top: 166px;
+	width: 5px;
+	height: 5px;
+}
+
+.phone-img_vertical_speaker {
+	background-color: rgb(172, 172, 172);
+	position: absolute;
+	left: 202px;
+	top: 184px;
+	width: 36px;
+	height: 5px;
+	border-radius: 10px;
+}
+
+.phone-img_vertical_screen {
+	background-image: url("Layer 6.png");
+	position: absolute;
+	left: 122px;
+	top: 210px;
+	width: 580px;
+	height: 580px;
+}
+
+.phone-img_vertical_btn-circle {
+	border-radius: 50%;
+	background-color: rgb(250, 250, 250);
+	position: absolute;
+	left: 198px;
+	top: 555px;
+	width: 43px;
+	height: 43px;
+}
+
+.phone-img_vertical_btn {
+	background-color: #fff;
+	border-radius: 25%;
+	position: absolute;
+	left: 211px;
+	top: 568px;
+	width: 13px;
+	height: 13px;
+	border: 2px solid rgb(186, 186, 186);
+}
+
+.phone-img_horizontal {
+	border-radius: 27px;
+	background-color: rgb(242, 242, 242);
+	position: absolute;
+	left: 425px;
+	top: 269px;
+	width: 458px;
+	height: 215px;
+}
+
+.phone-img_horizontal_cam {
+	border-radius: 50%;
+	background-color: rgb(216, 216, 216);
+	position: absolute;
+	left: 857px;
+	top: 371px;
+	width: 10px;
+	height: 10px;
+}
+
+.phone-img_horizontal_cam-dot {
+	border-radius: 50%;
+	background-color: rgb(235, 80, 85);
+	position: absolute;
+	left: 860px;
+	top: 374px;
+	width: 5px;
+	height: 5px;
+}
+
+.phone-img_horizontal_speaker {
+	background-color: rgb(172, 172, 172);
+	position: absolute;
+	left: 842px;
+	top: 359px;
+	width: 5px;
+	height: 36px;
+	border-radius: 10px;
+}
+
+.phone-img_horizontal_screen {
+	background-image: url("Layer 5.png");
+	position: absolute;
+	left: 482px;
+	top: 280px;
+	width: 339px;
+	height: 194px;
+
+}
+
+.phone-img_horizontal_btn-circle {
+	background-color: rgb(250, 250, 250);
+	position: absolute;
+	left: 433px;
+	top: 355px;
+	width: 43px;
+	height: 43px;
+	border-radius: 50%;
+}
+
+.phone-img_horizontal_btn {
+	background-color: #fff;
+	border-radius: 25%;
+	position: absolute;
+	left: 446px;
+	top: 368px;
+	width: 13px;
+	height: 13px;
+	border: 2px solid rgb(186, 186, 186);
+}
