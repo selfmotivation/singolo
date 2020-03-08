@@ -1,1 +1,1 @@
-# singolo
+https://selfmotivation.github.io/singolo/
