@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Lato, sans-serif;
+}
+
+.get-a-quote {
+	height: 648px;
+	background-color: #f06c64;
+	border-bottom: 6px solid #ea676b;
+	color: #f0d8d9;
+}
+
+.get-a-quote__wrapper {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.get-a-quote__header {
+
+}
+
+.get-a-quote__header_ {
+
+}
