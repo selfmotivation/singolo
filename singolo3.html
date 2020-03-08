@@ -3,15 +3,54 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Singolo</title>
-	<link rel="stylesheet" href="singolo2.css">
+	<link rel="stylesheet" href="singolo3.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
 </head>
 <body>
 	<section class="get-a-quote">
 		<div class="get-a-quote__wrapper">
-			<h2 class="get-a-quote__header header">Get A Quote</h2>
-		</div>
-		
+			<h2 class="get-a-quote__header header">Get a Quote</h2>
+			<p class="get-a-quote__text paragraph">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+			<div class="quote__form">
+				<form action="#">
+					<input type="text" name="name" class="quote__form_name-field" placeholder="Name (Required)" required>
+					<input type="email" name="email" class="quote__form_email-field" placeholder="Email (Required)" required>
+					<input type="text" name="subject" class="quote__form_subj-field" placeholder="Subject">
+					<textarea name="description" class="quote__form_descr-field" placeholder="Describe your project in detail..."></textarea>
+					<button type="submit" class="form__button">Send</button>
+				</form>
+			</div>
+			<div class="contacts">
+				<h3 class="contacts__header header">Contact Information</h3>
+				<p class="contacts__text paragraph">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
+				<div class="contacts__links">
+					 <ul class="contacts__list">
+					 	<a href="#">
+					 		<li class="contacts__list-item contacts__list-item-location">Elm St. 14/05 Lost City</li>
+					 	</a>
+					 	<a href="tel:+035283318635">
+					 		<li class="contacts__list-item contacts__list-item-phone">03528 331 86 35</li>
+					 	</a>
+					 	<a href="mailto:info@singolo.com">
+					 		<li class="contacts__list-item contacts__list-item-email">info@singolo.com</li>
+					 	</a>
+					 </ul>
+				</div>
+			</div>
+		</div>		
 	</section>
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<div class="footer__copyright">&copy; Copyright 2013</div>
+			<div class="footer__media">
+				<ul class="media__list">
+					<li class="media__item"><a href="#"><img src="assets/fb.png" alt="Facebook" class="fb"></a></li>
+					<li class="media__item"><a href="#"><img src="assets/gplus.png" alt="Google+" class="gplus"></a></li>
+					<li class="media__item"><a href="#"><img src="assets/tw.png" alt="Twitter" class="tw"></a></li>
+					<li class="media__item"><a href="#"><img src="assets/linkedin.png" alt="LinkedIn" class="linkedin"></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
